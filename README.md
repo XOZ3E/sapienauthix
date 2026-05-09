@@ -9,6 +9,9 @@ This system uses AI/ML to authenticate users based on their unique typing patter
 3. **3_sentinel.py** - Real-time monitoring and threat detection
 4. **enx.bat** - Security countermeasure script
 
+![dfdsf](6.png)
+![desdd](sapienauthix2.png)
+
 ## Setup Complete! ✓
 
 All required packages are installed:
@@ -69,4 +72,4 @@ python 3_sentinel.py
 - False positives can be reduced by lowering BLOCK_THRESHOLD in 3_sentinel.py
 
 ## Security Note:
-The `enx.bat` file creates popup alerts when unauthorized access is detected. Customize it for your specific security needs.
+The `enx.bat` file creates popup alerts when unauthorized access is detected. Customize it for your specific security needs
