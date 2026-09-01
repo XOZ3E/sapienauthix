@@ -12,16 +12,7 @@ This system uses AI/ML to authenticate users based on their unique typing patter
 ![dfdsf](6.png)
 ![desdd](sapienauthix2.png)
 
-## Setup Complete! ✓
 
-All required packages are installed:
-- ✓ pynput (keyboard monitoring)
-- ✓ pandas (data processing)
-- ✓ numpy (numerical operations)
-- ✓ scikit-learn (machine learning)
-- ✓ xgboost (gradient boosting)
-- ✓ hmmlearn (Hidden Markov Models)
-- ✓ joblib (model serialization)
 
 ## How to Use:
 
@@ -50,26 +41,7 @@ python 3_sentinel.py
 - System monitors your typing in real-time
 - If someone else types, it triggers `enx.bat` security response
 
-## How It Works:
 
-**Data Collection:** Measures two key metrics:
-- Dwell time: How long each key is held down
-- Flight time: Time between releasing one key and pressing the next
-
-**AI Models:** Uses ensemble learning with 3 models:
-- XGBoost: Gradient boosting for pattern recognition
-- SVM: Support Vector Machine for geometric separation
-- HMM: Hidden Markov Model for rhythm analysis
-
-**Detection:** Real-time scoring:
-- Score > 0.45: Legitimate user (SAFE)
-- Score < 0.45: Unauthorized access (THREAT → triggers enx.bat)
-
-## Tips:
-- Collect data while typing normally (not hunt-and-peck)
-- More training data = better accuracy
-- The system adapts to your unique typing rhythm
-- False positives can be reduced by lowering BLOCK_THRESHOLD in 3_sentinel.py
 
 ## Security Note:
 The `enx.bat` file creates popup alerts when unauthorized access is detected. Customize it for your specific security needs
